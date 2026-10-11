@@ -23,3 +23,4 @@
 ## Declarations
 
 ## References
+1. Soufleris S et al. Novel UROD mutation for porphyria cutanea tarda, type 2: a case report. AME Case Rep 2024;8:67.
