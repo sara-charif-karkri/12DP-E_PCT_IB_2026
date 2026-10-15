@@ -32,11 +32,11 @@ Most individuals with the mutation are asymptomatic (latent carriers), and only 
 
 For the disease to manifest clinically (presenting with characteristic symptoms such as skin fragility and blistering upon exposure to sunlight), the patient's liver must be exposed to environmental factors that cause hepatic enzyme activity to drop below 20-25% of normal  (MSD Manuals n.d.a).
 
-## Risk factors
+### Risk factors
 
 Studies show that, in the majority of cases, individuals who develop type 2 PCT have been exposed to factors that place oxidative stress on the liver, such as iron overload, excessive alcohol or tobacco use, chronic viral infections (e.g., hepatitis C or HIV), end-stage renal disease on hemodialysis, the use of estrogen-containing medications (contraceptives or hormone therapies), or exposure to industrial chemicals (Egger et al. 2002, International Porphyria Network n.d.).
 
-## Diagnosis
+### Diagnosis
 
 PCT is diagnosed by measuring excess porphyrins in blood, urine (uroporphyrins), and stool (isocoproporphyrins) samples. Distinguishing type 1 from type 2 requires measuring erythrocyte UROD activity (reduced to ~50% in type 2, normal in type 1) and genetic testing of the UROD gene (Mayo Clinic n.d.).
 
