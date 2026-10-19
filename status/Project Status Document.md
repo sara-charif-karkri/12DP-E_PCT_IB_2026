@@ -3,7 +3,7 @@
 
 | Task tracking \- Updated up to 19.10  |  |  |  |  |  |  |  |
 | ----- | ----- | ----- | ----- | ----- | ----- | :---- | ----- |
-| Task  | Resp.  | Plan. Start Date | Plan. Finish Date | Real. Start Date | Real. Finish Date | ![Menús desplegables][image1] Estat | Notes  |
+| Task  | Resp.  | Plan. Start Date | Plan. Finish Date | Real. Start Date | Real. Finish Date | Status | Notes  |
 | 1.1 Literature search and reference collection | Laia | 05.10 | 08.10 |  |  | In progress |  |
 | 1.2 Disease characterisation (PCT2, UROD)  | Laia  | 09.10 | 13.10 |  |  | Completed |  |
 | 1.3 Penetrance and inheritance | Laia | 13.10 | 15.10 |  |  | Completed |  |
