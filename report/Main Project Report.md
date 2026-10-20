@@ -55,6 +55,10 @@ It is also essential to avoid the factors that trigger the disease: stop drinkin
 
 ## Methods
 
+### Data sources
+
+The CDS and protein sequences corresponding to the wild-type (WT) and mutant variants were initially provided in FASTA format. To carry out the research, a series of searches was performed in the NCBI nucleotide and protein databases. Among the highest-scoring results, curated NCBI Reference Sequence (RefSeq) entries (NM_ for mRNA and NP_ for protein accessions) were prioritized over predicted entries (XM_ and XP_). The gene locus, chromosome, number of exons, and tissue expression were obtained from the NCBI Gene record linked to the selected RefSeq entries.
+
 ## Abbreviations
 
 ## Declarations
