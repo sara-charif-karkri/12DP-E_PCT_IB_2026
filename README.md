@@ -1,7 +1,7 @@
 # Bioinformatics Report — Porphyria Cutanea Tarda Type 2 (PCT)
 **Course:** Introduction to Bioinformatics · UPC · 2026–2027
 **Group:** Porphyria Cutanea Tarda Type 2 (PCT)
-**Authors:** Sara Charif Karkri el Abbassi, Eva Rodríguez García , Lídia Riba Garcia and Laia Núñez Palma
+**Authors:** Sara Charif Karkri el Abbassi and Laia Núñez Palma
 ## Description
 
 
