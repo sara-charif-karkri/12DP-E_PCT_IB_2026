@@ -59,6 +59,10 @@ It is also essential to avoid the factors that trigger the disease: stop drinkin
 
 The CDS and protein sequences corresponding to the wild-type (WT) and mutant variants were initially provided in FASTA format. To carry out the research, a series of searches was performed in the NCBI nucleotide and protein databases. Among the highest-scoring results, curated NCBI Reference Sequence (RefSeq) entries (NM_ for mRNA and NP_ for protein accessions) were prioritized over predicted entries (XM_ and XP_). The gene locus, chromosome, number of exons, and tissue expression were obtained from the NCBI Gene record linked to the selected RefSeq entries.
 
+### Implementation
+
+The WT and mutant CDS were searched with BLASTn and the WT and mutant proteins with BLASTp using default parameters in both cases. To identify homologs, the searches were repeated using the human WT sequences as queries, and the search was restricted to the organism Bacillus subtilis (the assigned species) or Pan troglodytes (the additional species). Finally, the homologous CDS and protein sequences were downloaded in FASTA format for further analysis. Pairwise comparisons (WT vs. mutant) and cross-species comparisons were performed with the BLAST 'Align two or more sequences' option, and alignments were inspected in the 'Query-anchored with dots for identities' view. Variants were annotated with the c. (CDS) and p. (protein) notations.
+
 ## Abbreviations
 
 BLAST: Basic Local Alignment Search Tool; CDS: coding DNA sequence; NCBI: National Center for Biotechnology Information; PCT: porphyria  cutanea tarda; RefSeq: NCBI Reference Sequence; UROD: uroporphyrinogen decarboxylase; WT: wild type.
