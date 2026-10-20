@@ -61,6 +61,8 @@ The CDS and protein sequences corresponding to the wild-type (WT) and mutant var
 
 ## Abbreviations
 
+BLAST: Basic Local Alignment Search Tool; CDS: coding DNA sequence; NCBI: National Center for Biotechnology Information; PCT: porphyria  cutanea tarda; RefSeq: NCBI Reference Sequence; UROD: uroporphyrinogen decarboxylase; WT: wild type.
+
 ## Declarations
 
 ## References
