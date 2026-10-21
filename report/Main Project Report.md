@@ -49,7 +49,22 @@ It is also essential to avoid the factors that trigger the disease: stop drinkin
 
 ## Results
 
+### Identification and Genomic Context of the Gene and Protein
+The protein identified directly corresponds to the gene found in the wild-type coding sequence (CDS) search, as the functional uroporphyrinogen decarboxylase enzyme is translated directly from this genetic sequence. Following standard nomenclature, both the gene and its protein share the symbol **UROD**. Located on chromosome 1 at position 1p34.1 (genomic reference NC_000001.11), the **UROD** gene consists of ten exons. Gene expression analysis shows active transcription across major human fetal tissues—including the heart, kidneys, lungs, stomach, intestines, and adrenal glands—highlighting its essential role in early development.
+
+### Sequence Alignment and Mutation Characterization
+A pairwise alignment confirms that the mutant CDS originates from the exact same genetic locus as the wild-type CDS, showing complete query coverage, an E-value of zero, and 99.91% sequence identity. The only discrepancy between the two sequences is a single nucleotide substitution at position 779 of the query sequence (position 791 of the subject sequence), where the wild-type cytosine is replaced by thymine (c.779C>T). Evaluating this substitution within its codon reading frame reveals a missense mutation that changes codon 260 from ATC to ACC, thereby substituting isoleucine with threonine. At the protein level, the alignment confirms that the mutant protein matches wild-type UROD with full query coverage, an E-value of zero, and 99.73% sequence identity, differing solely by a single amino acid substitution (p.Ile260Thr) at position 260.
+
+### Multi-Species Sequence Conservation Analysis
+An analysis of sequence conservation across Homo sapiens, Pan troglodytes, and Bacillus subtilis demonstrates that conservation is not uniformly distributed. Aligning human coding sequences against Pan troglodytes shows high sequence identity ranging between 96% and 99% with zero alignment gaps, consisting exclusively of single nucleotide substitutions. Conversely, alignment with Bacillus subtilis CDS is restricted to a small local fragment spanning only 12% query coverage with 67.15% identity and explicit structural gaps. Across protein sequences, high conservation is maintained between humans and chimpanzees over the full length of the chain with 99.73% identity and a single substitution at position 202. The protein alignment against Bacillus subtilis covers 95% of the sequence length with an E-value of 1e-77, 38.70% identity, and 17 gap positions resulting from insertions or deletions. Consequently, there are no highly conserved CDS regions shared across all three species simultaneously, whereas protein conservation remains localized to core structural and catalytic regions.
+
 ## Discussion
+
+### Physicochemical and Functional Impact of the Variant
+Evaluating side-chain properties reveals that while both isoleucine and threonine carry a net neutral charge at physiological pH, isoleucine possesses a larger four-carbon non-polar hydrocarbon side chain, whereas threonine contains a smaller two-carbon side chain with a polar hydroxyl group. Hydrophobic isoleucine residues are normally buried inside the internal core of the protein to stabilize its tertiary structure through hydrophobic interactions. Introducing a hydrophilic threonine residue introduces a polar hydroxyl group into this internal core, disrupting hydrophobic interactions and perturbing hydrogen-bonding networks. This structural disturbance forces the protein chain to refold incorrectly, destabilizing the enzyme and impairing catalytic activity, which directly contributes to the pathogenic mechanism of porphyria cutanea tarda.
+
+### Evolutionary Divergence and Functional Constraints
+Not all nucleotide variants lead to amino acid substitutions, as the degeneracy of the genetic code allows synonymous mutations to accumulate without altering the translated protein. Consequently, the three species show higher sequence similarity at the protein level than at the CDS level. 
 
 ## Conclusions
 
