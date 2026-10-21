@@ -55,6 +55,20 @@ It is also essential to avoid the factors that trigger the disease: stop drinkin
 
 ## Methods
 
+### Sequence Data Validation, Alignment, and Conservation Analysis
+
+The initial wild-type (WT) and disease-associated mutant coding sequences (CDS) and primary protein chains for human uroporphyrinogen decarboxylase (*UROD*) were obtained from the course-provided dataset. Sequence integrity, valid FASTA header formatting, and standard residue codes were verified before database curation. 
+
+Pairwise sequence alignments between the wild-type and disease-associated mutant variants were performed using the National Center for Biotechnology Information (NCBI) Basic Local Alignment Search Tool (BLAST; blastn for CDS and blastp for amino acid sequences). To assess evolutionary conservation across distinct taxonomic ranks, orthologous CDS and protein sequences were retrieved for two non-human reference species: *Pan troglodytes* (chimpanzee) and *Bacillus subtilis* (bacterium). 
+
+Multiple sequence alignments were executed at both the coding nucleotide and protein sequence levels using default BLAST parameters to calculate comparative alignment metrics, including query coverage, percent sequence identity, expectation values ($E$-value), and insertion/deletion events (gaps). In addition, side-chain physicochemical properties (size, charge, polarity, and hydrophobicity) and codon reading frame alterations were evaluated to interpret the functional impact and evolutionary constraints acting on the disease-associated mutation site.
+
+### Multi-Species Ortholog Selection and Comparative Alignment
+
+To evaluate evolutionary conservation across different taxonomic levels, orthologous sequences were obtained for two non-human reference species: *Pan troglodytes* (chimpanzee) and *Bacillus subtilis* (bacterium). Multiple sequence alignments were performed at both the CDS and protein levels using NCBI BLAST default parameters to compute key comparative metrics, including percent identity, query coverage, expectation values (E-value), gaps, and physicochemical alterations of substituted amino acids.
+
+
+
 ## Abbreviations
 
 ## Declarations
