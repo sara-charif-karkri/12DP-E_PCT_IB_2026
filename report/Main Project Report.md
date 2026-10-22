@@ -1,6 +1,6 @@
 # Porphyria Cutanea Tarda Type 2 (PCT)
 
-### Authors: Sara Charif Karkri, Eva Rodriguez, Lidia Riba and Laia Núñez
+### Authors: Sara Charif Karkri and Laia Núñez
 
 ### _Bioinformatics, UPC, Barcelona, Spain_
 
