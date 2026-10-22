@@ -8,6 +8,8 @@
 
 ## Keywords
 
+Uroporphyrinogen decarboxylase (UROD), porphyria cutanea tarda type 2 (PCT), BLAST, missense mutation, sequence conservation, penetrance.
+
 ## Background
 
 Porphyria cutanea tarda type 2 (PCT) is a rare metabolic disorder characterized by a 50% reduction in the activity of the enzyme UROD (uroporphyrinogen decarboxylase) (Soufleris et al. 2024).
