@@ -78,6 +78,10 @@ The CDS and protein sequences corresponding to the wild-type (WT) and mutant var
 
 The WT and mutant CDS were searched with BLASTn and the WT and mutant proteins with BLASTp using default parameters in both cases. To identify homologs, the searches were repeated using the human WT sequences as queries, and the search was restricted to the organism Bacillus subtilis (the assigned species) or Pan troglodytes (the additional species). Finally, the homologous CDS and protein sequences were downloaded in FASTA format for further analysis. Pairwise comparisons (WT vs. mutant) and cross-species comparisons were performed with the BLAST 'Align two or more sequences' option, and alignments were inspected in the 'Query-anchored with dots for identities' view. Variants were annotated with the c. (CDS) and p. (protein) notations.
 
+### Statistical Analysis
+
+Each hit was evaluated by combining query coverage (percentage of the query included in the alignment), percent identity (percentage of identical aligned positions), and E-value (number of matches of similar quality expected by chance in a database of that size), together with the sequence description, organism, and accession type. Additionally, side-chain physicochemical properties (size, charge, polarity and hydrophobicity) were evaluated to predict the effect of the amino-acid substitution on UROD structure and activity, and thus its potential role in the pathogenesis of porphyria cutanea tarda type 2 (PCT).
+
 ## Abbreviations
 
 BLAST: Basic Local Alignment Search Tool; CDS: coding DNA sequence; NCBI: National Center for Biotechnology Information; PCT: porphyria  cutanea tarda; RefSeq: NCBI Reference Sequence; UROD: uroporphyrinogen decarboxylase; WT: wild type.
