@@ -111,6 +111,30 @@ Each hit was evaluated by combining query coverage (percentage of the query incl
 BLAST: Basic Local Alignment Search Tool; CDS: coding DNA sequence; NCBI: National Center for Biotechnology Information; PCT: porphyria  cutanea tarda; RefSeq: NCBI Reference Sequence; UROD: uroporphyrinogen decarboxylase; WT: wild type.
 
 ## Declarations
+### Ethics approval and consent to participate
+Not applicable. This study utilizes publicly available, anonymized bioinformatic and genomic database sequences.
+
+### Consent for publication
+Not applicable.
+
+### Availability of data and materials
+All sequence files, 3D structural models, alignments, and project code are available in the public GitHub repository: https://github.com/sara-charif-karkri/12DP-E_PCT_IB_2026.git
+
+### Competing interests
+The authors declare that they have no competing interests.
+
+### Funding
+This work was supported by the Undergraduate Bioinformatics Project curriculum at Universitat Politècnica de Catalunya (UPC).
+
+### Authors' contributions
+- **Laia Núñez Palma:** Conducted disease background research, clinical characterization, penetrance, and risk factor analyses.Performed pairwise CDS/protein alignments, multi-species conservation analyses, and mutation mapping.
+- **Sara:** Retrieved and validated FASTA datasets, curated NCBI RefSeq entries, selected species orthologs, and gathered PDB structures.Conducted 3D structural superposition in PyMOL, calculated RMSD metrics, and performed local physicochemical cavity analysis. Managed project timeline, Gantt tracking, GitHub repository administration, and final report compilation.
+
+All authors read and approved the final manuscript.
+
+### Acknowledgements
+We thank the course instructors of Introduction to Bioinformatics (UPC) for providing initial datasets and technical guidance.
+
 
 ## References
 - American Porphyria Foundation. Porphyria Cutanea Tarda (PCT). https://porphyriafoundation.org/for-patients/types-of-porphyria/pct/ (12 October 2026, date last accessed).
