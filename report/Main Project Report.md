@@ -48,6 +48,13 @@ The aim of PCT treatment is to lower the amount of porphyrins in the body. This 
 
 It is also essential to avoid the factors that trigger the disease: stop drinking alcohol and smoking, stop taking estrogens, avoid iron supplements, and treat underlying conditions such as hepatitis C. Patients must also protect their skin from sunlight with clothing and physical sunscreens (Egger et al. 2002).
 
+### Sequence analysis
+
+Because type 2 PCT originates from mutations in the UROD gene, analysing the mutated sequence can help explain how a single genetic change reduces the activity of the enzyme. Biological sequences can be compared to identify similarities and differences. Sequence comparison with BLAST makes it possible to identify unknown DNA and protein sequences, to locate the variant that distinguishes a disease-associated sequence from the wild-type (WT) sequence, and to search for homologous sequences in other species. Conserved positions, which have remained similar during evolution, can indicate regions that are important for protein structure or function.
+
+### Aims of the study
+
+The aims of this study were therefore: to identify the gene and protein corresponding to the WT CDS and protein sequences provided for the project; to confirm the identity of the mutant sequences and to characterize the variant at the nucleotide and amino-acid levels; and to examine whether the variant lies in a region conserved across species, as a first step towards explaining its pathogenic effect.
 
 ## Results
 
