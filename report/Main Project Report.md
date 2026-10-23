@@ -128,7 +128,7 @@ This work was supported by the Undergraduate Bioinformatics Project curriculum a
 
 ### Authors' contributions
 - **Laia Núñez Palma:** Conducted disease background research, clinical characterization, penetrance, and risk factor analyses.Performed pairwise CDS/protein alignments, multi-species conservation analyses, and mutation mapping.
-- **Sara:** Retrieved and validated FASTA datasets, curated NCBI RefSeq entries, selected species orthologs, and gathered PDB structures.Conducted 3D structural superposition in PyMOL, calculated RMSD metrics, and performed local physicochemical cavity analysis. Managed project timeline, Gantt tracking, GitHub repository administration, and final report compilation.
+- **Sara:** Retrieved and validated FASTA datasets, curated NCBI RefSeq entries, selected species orthologs, and gathered PDB structures.Performed local physicochemical cavity analysis. Managed project timeline, Gantt tracking, GitHub repository administration, and final report compilation.
 
 All authors read and approved the final manuscript.
 
