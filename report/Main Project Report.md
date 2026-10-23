@@ -14,7 +14,7 @@ Uroporphyrinogen decarboxylase (UROD), porphyria cutanea tarda type 2 (PCT), BLA
 
 Porphyria cutanea tarda type 2 (PCT) is a rare metabolic disorder characterized by a 50% reduction in the activity of the enzyme UROD (uroporphyrinogen decarboxylase) (Soufleris et al. 2024).
 
-The principal function of this enzyme is to assist in the production of heme, an essential  component for creating hemoglobin (which gives blood its red color and transports oxygen) and for enabling the liver to eliminate toxins (Online Mendelian Inheritance in Man n.d.).
+The principal function of this enzyme is to assist in the production of heme, an essential  component for creating hemoglobin (which gives blood its red color and transports oxygen) and for enabling the liver to eliminate toxins (Online Mendelian Inheritance in Man n.d.). Specifically, the protein UROD, encoded by the gene also called UROD, catalyzes the sequential decarboxylation of the four acetate side chains of uroporphyrinogen III to yield coproporphyrinogen III, an indispensable step in the heme biosynthesis pathway (National Center for Biotechnology Information n.d.). Because this step is required for fundamental cellular metabolism, the enzyme is present in both prokaryotic and eukaryotic organisms.
 
 This hereditary condition affects both men and women, as it is transmitted in an autosomal dominant pattern. This means that the gene responsible is located on a non-sex chromosome (autosome), and inheriting a single mutated copy of the UROD gene from either parent is sufficient to predispose an individual to the disease (MSD Manuals n.d.b).
 
