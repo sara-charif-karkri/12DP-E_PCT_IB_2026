@@ -90,6 +90,7 @@ Evaluating side-chain properties reveals that while both isoleucine and threonin
 Not all nucleotide variants lead to amino acid substitutions, as the degeneracy of the genetic code allows synonymous mutations to accumulate without altering the translated protein. Consequently, the three species show higher sequence similarity at the protein level than at the CDS level. 
 
 ## Conclusions
+This study clarifies the molecular pathomechanism of Porphyria Cutanea Tarda Type 2 associated with the UROD p.Ile260Thr variant. Bioinformatic analysis confirmed that the disease originates from a single c.779C>T nucleotide transition. Cross-species comparative alignment demonstrated that while coding DNA sequences diverge significantly over evolutionary time, the UROD protein structure is constrained by strict purifying selection to preserve heme biosynthesis. 3D structural modeling proved that the p.Ile260Thr mutation causes minimal global backbone distortion (RMSD = 0.253 Å). Instead, pathogenicity is driven by the introduction of a hydrophilic hydroxyl group into the buried non-polar core, disrupting internal hydrophobic interactions, destabilizing enzyme folding, and impairing catalytic activity below the clinical penetrance threshold.
 
 ## Methods
 
