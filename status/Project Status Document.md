@@ -21,7 +21,7 @@
 | 5.1 Draft Background / Introduction | Sara and  Laia | 13/10 | 19/10 |  |  | In progress | Laia has put a draft of her part in the repository. |
 | 5.2 Draft Methods and Results: structure  | Sara and  Laia | 13/10 | 20/10 |21/10  | 23/10 | Completed | Sara has ended the draft of Methods and Results. |
 | 5.3 Draft Discussion, Conclusions and Abstract   | Sara and  Laia | 16/10 | 22/10 | 23/10 |  | In progress | Sara has put a draft of the Abstract and conclusions and discussion. |
-| 5.4 Cross-review and format check   | Sara and  Laia | 22/10 | 22/10 |  |  | Pending |  |
+| 5.4 Cross-review and format check   | Sara and  Laia | 22/10 | 23/10 | 22/10 |  | Pending |  |
 | 5.5 Final delivery: final Gantt and gap analysis | Sara and  Laia | 21/10 | 23/10 |  |  | Pending |  |
 
 ## Risk Analysis
