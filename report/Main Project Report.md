@@ -8,13 +8,13 @@
 
 ## Keywords
 
-Uroporphyrinogen decarboxylase (UROD), porphyria cutanea tarda type 2 (PCT), BLAST, missense mutation, sequence conservation, penetrance.
+Uroporphyrinogen decarboxylase (UROD), porphyria cutanea tarda type 2 (PCT), Basic Local Alignment Search Tool (BLAST), missense mutation, sequence conservation, penetrance.
 
 ## Background
 
 Porphyria cutanea tarda type 2 (PCT) is a rare metabolic disorder characterized by a 50% reduction in the activity of the enzyme UROD (uroporphyrinogen decarboxylase) (Soufleris et al. 2024).
 
-The principal function of this enzyme is to assist in the production of heme, an essential  component for creating hemoglobin (which gives blood its red color and transports oxygen) and for enabling the liver to eliminate toxins (Online Mendelian Inheritance in Man n.d.). Specifically, the protein UROD, encoded by the gene also called UROD, catalyzes the sequential decarboxylation of the four acetate side chains of uroporphyrinogen III to yield coproporphyrinogen III, an indispensable step in the heme biosynthesis pathway (National Center for Biotechnology Information n.d.). Because this step is required for fundamental cellular metabolism, the enzyme is present in both prokaryotic and eukaryotic organisms.
+The principal function of this enzyme is to assist in the production of heme, an essential  component for creating hemoglobin (which gives blood its red color and transports oxygen) and for enabling the liver to eliminate toxins (Online Mendelian Inheritance in Man n.d.). Specifically, the protein UROD, encoded by the gene also called UROD, catalyzes the sequential decarboxylation of the four acetate side chains of uroporphyrinogen III to yield coproporphyrinogen III, an indispensable step in the heme biosynthesis pathway. Because this step is required for fundamental cellular metabolism, the enzyme is present in both prokaryotic and eukaryotic organisms (Whitby 1998).
 
 This hereditary condition affects both men and women, as it is transmitted in an autosomal dominant pattern. This means that the gene responsible is located on a non-sex chromosome (autosome), and inheriting a single mutated copy of the UROD gene from either parent is sufficient to predispose an individual to the disease (MSD Manuals n.d.b).
 
@@ -28,9 +28,9 @@ The most common symptoms are: extreme skin fragility (the skin erodes or peels o
 
 ### Penetrance
 
-In hereditary Type 2 PCT, the UROD deficiency is present in all body tissues, including red blood cells (National Center for Biotechnology Information n.d.), unlike Type 1 (sporadic/acquired), in which the deficiency is restricted to the liver. In principle, this might suggest that anyone with the mutation would manifest symptoms of the disease; however, Type 2 PCT involves a genetic phenomenon known as incomplete penetrance, where carrying the mutation does not guarantee the development of the pathology (The Medical Biochemistry Page n.d.).
+In hereditary type 2 PCT, the UROD deficiency is present in all body tissues, including red blood cells (National Center for Biotechnology Information n.d.), unlike type 1 (sporadic/acquired), in which the deficiency is restricted to the liver. In principle, this might suggest that anyone with the mutation would manifest symptoms of the disease; however, type 2 PCT involves a genetic phenomenon known as incomplete penetrance, where carrying the mutation does not guarantee the development of the pathology (The Medical Biochemistry Page n.d.).
 
-Most individuals with the mutation are asymptomatic (latent carriers), and only a minority develop the disease. This occurs because the inherited mutation reduces UROD activity by half; however, under normal conditions this residual activity is sufficient for heme synthesis. (American Porphyria Foundation n.d.)
+Most individuals with the mutation are asymptomatic (latent carriers), and only a minority develop the disease. This occurs because the inherited mutation reduces UROD activity by half; however, under normal conditions this residual activity is sufficient for heme synthesis (American Porphyria Foundation n.d.).
 
 For the disease to manifest clinically (presenting with characteristic symptoms such as skin fragility and blistering upon exposure to sunlight), the patient's liver must be exposed to environmental factors that cause hepatic enzyme activity to drop below 20-25% of normal  (MSD Manuals n.d.a).
 
@@ -50,16 +50,16 @@ It is also essential to avoid the factors that trigger the disease: stop drinkin
 
 ### Sequence analysis
 
-Because type 2 PCT originates from mutations in the UROD gene, analysing the mutated sequence can help explain how a single genetic change reduces the activity of the enzyme. Biological sequences can be compared to identify similarities and differences. Sequence comparison with BLAST makes it possible to identify unknown DNA and protein sequences, to locate the variant that distinguishes a disease-associated sequence from the wild-type (WT) sequence, and to search for homologous sequences in other species. Conserved positions, which have remained similar during evolution, can indicate regions that are important for protein structure or function.
+Because type 2 PCT originates from mutations in the UROD gene, analyzing the mutated sequence can help explain how a single genetic change reduces the activity of the enzyme. Biological sequences can be compared to identify similarities and differences. Sequence comparison with BLAST makes it possible to identify unknown DNA and protein sequences, to locate the variant that distinguishes a disease-associated sequence from the wild-type (WT) sequence, and to search for homologous sequences in other species. Conserved positions, which have remained similar during evolution, can indicate regions that are important for protein structure or function.
 
 ### Aims of the study
 
-The aims of this study were therefore: to identify the gene and protein corresponding to the WT CDS and protein sequences provided for the project; to confirm the identity of the mutant sequences and to characterize the variant at the nucleotide and amino-acid levels; and to examine whether the variant lies in a region conserved across species, as a first step towards explaining its pathogenic effect.
+The aims of this study were therefore: to identify the gene and protein corresponding to the wild-type coding sequence (CDS) and protein sequences provided for the project; to confirm the identity of the mutant sequences and to characterize the variant at the nucleotide and amino-acid levels; and to examine whether the variant lies in a region conserved across species, as a first step towards explaining its pathogenic effect.
 
 ## Results
 
 ### Identification and Genomic Context of the Gene and Protein
-The protein identified directly corresponds to the gene found in the wild-type coding sequence (CDS) search, as the functional uroporphyrinogen decarboxylase enzyme is translated directly from this genetic sequence. Following standard nomenclature, both the gene and its protein share the symbol **UROD**. Located on chromosome 1 at position 1p34.1 (genomic reference NC_000001.11), the **UROD** gene consists of ten exons. Gene expression analysis shows active transcription across major human fetal tissues—including the heart, kidneys, lungs, stomach, intestines, and adrenal glands—highlighting its essential role in early development.
+The protein identified directly corresponds to the gene found in the WT CDS search, as the functional uroporphyrinogen decarboxylase enzyme is translated directly from this genetic sequence. Following standard nomenclature, both the gene and its protein share the symbol **UROD**. Located on chromosome 1 at position 1p34.1 (genomic reference NC_000001.11), the **UROD** gene consists of ten exons. Gene expression analysis shows active transcription across major human fetal tissues—including the heart, kidneys, lungs, stomach, intestines, and adrenal glands—highlighting its essential role in early development.
 
 ### Sequence Alignment and Mutation Characterization
 A pairwise alignment confirms that the mutant CDS originates from the exact same genetic locus as the wild-type CDS, showing complete query coverage, an E-value of zero, and 99.91% sequence identity. The only discrepancy between the two sequences is a single nucleotide substitution at position 779 of the query sequence (position 791 of the subject sequence), where the wild-type cytosine is replaced by thymine (c.779C>T). Evaluating this substitution within its codon reading frame reveals a missense mutation that changes codon 260 from ATC to ACC, thereby substituting isoleucine with threonine. At the protein level, the alignment confirms that the mutant protein matches wild-type UROD with full query coverage, an E-value of zero, and 99.73% sequence identity, differing solely by a single amino acid substitution (p.Ile260Thr) at position 260.
@@ -109,3 +109,4 @@ BLAST: Basic Local Alignment Search Tool; CDS: coding DNA sequence; NCBI: Nation
 - Orphanet. Porphyria cutanea tarda. https://www.orpha.net/en/disease/detail/101330 (12 October 2026, date last accessed).
 - Soufleris S et al. Novel UROD mutation for porphyria cutanea tarda, type 2: a case report. AME Case Rep 2024;8:67.
 - The Medical Biochemistry Page. Porphyria Cutanea Tarda, PCT. https://themedicalbiochemistrypage.org/porphyria-cutanea-tarda-pct/ (12 October 2026, date last accessed).
+- Whitby FG et al. Crystal structure of human uroporphyrinogen decarboxylase. EMBO J 1998;17:2463–71.
