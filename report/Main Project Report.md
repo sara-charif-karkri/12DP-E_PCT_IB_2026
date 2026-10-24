@@ -146,15 +146,18 @@ All authors read and approved the final manuscript.
 We thank the course instructors of Introduction to Bioinformatics (UPC) for providing the initial FASTA sequence datasets and the interactive HTML structural visualization interface used for the 3D conformational analysis.
 
 ## References
-- American Porphyria Foundation. Porphyria Cutanea Tarda (PCT). https://porphyriafoundation.org/for-patients/types-of-porphyria/pct/ (12 October 2026, date last accessed).
-- Egger NG et al. Porphyria cutanea tarda: multiplicity of risk factors including HFE mutations, hepatitis C, and inherited uroporphyrinogen decarboxylase deficiency. Dig Dis Sci 2002;47:419–26.
-- International Porphyria Network. Porphyria Cutanea Tarda (PCT). https://ipnet.org/porphyria-cutanea-tarda-pct-2/ (12 October 2026, date last accessed).
-- Mayo Clinic. Porphyria: Diagnosis & treatment. https://www.mayoclinic.org/diseases-conditions/porphyria/diagnosis-treatment/drc-20356072 (12 October 2026, date last accessed).
-- MSD Manuals. Overview of Cutaneous Porphyrias. https://www.msdmanuals.com/professional/hematology/the-porphyrias/overview-of-cutaneous-porphyrias (12 October 2026, date last accessed).
-- MSD Manuals. Porphyria Cutanea Tarda. https://www.msdmanuals.com/professional/hematology/the-porphyrias/porphyria-cutanea-tarda (12 October 2026, date last accessed).
-- National Center for Biotechnology Information. UROD uroporphyrinogen decarboxylase [Homo sapiens (human)]. https://www.ncbi.nlm.nih.gov/gene/7389 (9 October 2026, date last accessed).
-- Online Mendelian Inheritance in Man. Porphyria cutanea tarda; PCT. https://www.omim.org/entry/176100 (11 October 2026, date last accessed).
-- Orphanet. Porphyria cutanea tarda. https://www.orpha.net/en/disease/detail/101330 (12 October 2026, date last accessed).
-- Soufleris S et al. Novel UROD mutation for porphyria cutanea tarda, type 2: a case report. AME Case Rep 2024;8:67.
-- The Medical Biochemistry Page. Porphyria Cutanea Tarda, PCT. https://themedicalbiochemistrypage.org/porphyria-cutanea-tarda-pct/ (12 October 2026, date last accessed).
-- Whitby FG et al. Crystal structure of human uroporphyrinogen decarboxylase. EMBO J 1998;17:2463–71.
+1. American Porphyria Foundation. Porphyria Cutanea Tarda (PCT) [Internet]. Available from: https://porphyriafoundation.org/for-patients/types-of-porphyria/pct/ [Accessed 12 Oct 2026].
+2. Egger NG, Go-Soco A, Shah ALLE, Shan B, Anderson KE. Porphyria cutanea tarda: multiplicity of risk factors including HFE mutations, hepatitis C, and inherited uroporphyrinogen decarboxylase deficiency. *Dig Dis Sci*. 2002;47(2):419–426.
+3. International Porphyria Network (IPNET). Porphyria Cutanea Tarda (PCT) [Internet]. Available from: https://ipnet.org/porphyria-cutanea-tarda-pct-2/ [Accessed 12 Oct 2026].
+4. Mayo Clinic. Porphyria: Diagnosis & treatment [Internet]. Mayo Foundation for Medical Education and Research. Available from: https://www.mayoclinic.org/diseases-conditions/porphyria/diagnosis-treatment/drc-20356072 [Accessed 12 Oct 2026].
+5. MSD Manuals. Overview of Cutaneous Porphyrias [Internet]. Merck & Co., Inc. Available from: https://www.msdmanuals.com/professional/hematology/the-porphyrias/overview-of-cutaneous-porphyrias [Accessed 12 Oct 2026].
+6. MSD Manuals. Porphyria Cutanea Tarda [Internet]. Merck & Co., Inc. Available from: https://www.msdmanuals.com/professional/hematology/the-porphyrias/porphyria-cutanea-tarda [Accessed 12 Oct 2026].
+7. National Center for Biotechnology Information (NCBI). UROD uroporphyrinogen decarboxylase [Homo sapiens (human)] [Internet]. Gene ID: 7389. Available from: https://www.ncbi.nlm.nih.gov/gene/7389 [Accessed 9 Oct 2026].
+8. Online Mendelian Inheritance in Man (OMIM). Porphyria cutanea tarda; PCT [Internet]. Entry 176100. Johns Hopkins University. Available from: https://www.omim.org/entry/176100 [Accessed 11 Oct 2026].
+9. Orphanet. Porphyria cutanea tarda [Internet]. INSERM. Available from: https://www.orpha.net/en/disease/detail/101330 [Accessed 12 Oct 2026].
+10. Soufleris S, et al. Novel UROD mutation for porphyria cutanea tarda, type 2: a case report. *AME Case Rep*. 2024;8:67.
+11. The Medical Biochemistry Page. Porphyria Cutanea Tarda, PCT [Internet]. Available from: https://themedicalbiochemistrypage.org/porphyria-cutanea-tarda-pct/ [Accessed 12 Oct 2026].
+12. Whitby FG, Phillips JD, Kushner JP, Hill CP. Crystal structure of human uroporphyrinogen decarboxylase. *EMBO J*. 1998;17(9):2463–2471.
+13. NCBI Blast:PCT_CDS_WT. n.d. https://blast.ncbi.nlm.nih.gov/Blast.cgi#Query_7448152 (17 Oct. 2026, date last accessed).
+14. NCBI Blast:PCT_protein_WT. n.d. https://blast.ncbi.nlm.nih.gov/Blast.cgi (17 Oct. 2026, date last accessed).
+
