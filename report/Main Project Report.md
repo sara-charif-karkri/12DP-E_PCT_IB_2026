@@ -85,7 +85,7 @@ Structural evaluation of the disease-associated variant at position 260 reveals 
 **Figure 3.** Local 3D structural superposition centered at position 260 of human uroporphyrinogen decarboxylase (UROD). The ribbon backbone shows the wild-type model superimposed on the mutant model, highlighting the substituted side chains within the internal protein pocket (local Cα displacement = 0.147 Å). Image generated from the interactive course web interface provided by the Introduction to Bioinformatics course instructors (UPC, 2026).
 
 ![Human vs Bacillus subtilis Structural Comparison](../figures/3D_human_vs_bacillus.png)
-**Figure 4.** Structural superposition between human UROD (blue) and Bacillus subtilis ortholog (green), showing high preservation of core alpha-helices and beta-sheets despite evolutionary divergence (global RMSD = 2.81 Å).Image generated from the interactive course web interface provided by the Introduction to Bioinformatics course instructors (UPC, 2026).
+**Figure 4.** Structural superposition between human UROD (blue) and Bacillus subtilis ortholog (green), showing high preservation of core alpha-helices and beta-sheets despite evolutionary divergence (global RMSD = 2.81 Å). Image generated from the interactive course web interface provided by the Introduction to Bioinformatics course instructors (UPC, 2026).
 
 ### Multi-Species Sequence Conservation Analysis
 
