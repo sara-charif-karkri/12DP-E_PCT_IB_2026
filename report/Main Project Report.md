@@ -58,6 +58,11 @@ Because type 2 PCT originates from mutations in the UROD gene, analyzing the mut
 The aims of this study were therefore: to identify the gene and protein corresponding to the wild-type coding sequence (CDS) and protein sequences provided for the project; to confirm the identity of the mutant sequences and to characterize the variant at the nucleotide and amino-acid levels; and to examine whether the variant lies in a region conserved across species, as a first step towards explaining its pathogenic effect.
 
 ## Results
+### 3D Mutation Mapping and Local Conformational Impact
+Structural evaluation of the disease-associated variant at position 260 reveals a missense substitution replacing the wild-type isoleucine with a threonine (p.Ile260Thr). Superposition of the human wild-type and mutant 3D structures demonstrates minimal backbone distortion, yielding a global RMSD of 0.253 Å and a local Cα backbone displacement of only 0.147 Å at position 260. At the corresponding aligned position in the bacterial ortholog (Bacillus subtilis), the residue is occupied by a methionine with a local backbone displacement of 1.329 Å.
+
+![WT versus Mutant 3D Structural View](../figures/3D_superposition_WT_mutant.png)
+**Figure 3.** Local 3D structural superposition centered at position 260 of human uroporphyrinogen decarboxylase (UROD). The ribbon backbone shows the wild-type model superimposed on the mutant model, highlighting the substituted side chains within the internal protein pocket (local Cα displacement = 0.147 Å). Image generated from the interactive course web interface provided by the Introduction to Bioinformatics course instructors (UPC, 2026).
 
 ### Identification and Genomic Context of the Gene and Protein
 
@@ -80,6 +85,9 @@ The variant at the CDS level is therefore a single nucleotide substitution, whil
 Analysis of sequence conservation across the three species demonstrates that conservation is not uniformly distributed. Homologous WT sequences were retrieved from _Bacillus subtilis_ (the assigned species) and _Pan troglodytes_ (the additional species) and aligned with the human sequences. Aligning human coding sequences against Pan troglodytes shows high sequence identity ranging between 96% and 99% with zero alignment gaps, consisting exclusively of single nucleotide substitutions. In contrast, alignment with Bacillus subtilis CDS is restricted to a small local fragment spanning only 12% query coverage with 67.15% identity and explicit structural gaps. Across protein sequences, high conservation is maintained between humans and chimpanzees over the full length of the chain with 99.73% identity and a single substitution at position 208. The protein alignment against Bacillus subtilis covers 95% of the sequence length with an E-value of 1e-77, 38.70% identity, and 17 gap positions resulting from insertions or deletions. Consequently, there are no highly conserved CDS regions shared across all three species simultaneously.
 
 ## Discussion
+### Physicochemical and Structural Pathomechanism of p.Ile260Thr
+Comparing the physicochemical properties of the wild-type and mutated residues explains the molecular mechanism of Porphyria Cutanea Tarda Type 2. Wild-type isoleucine is a large, non-polar, aliphatic residue buried within the internal hydrophobic core to stabilize tertiary folding through hydrophobic interactions. The p.Ile260Thr substitution introduces a smaller, polar threonine residue containing a hydrophilic hydroxyl (-OH) group into this buried non-polar environment. Because the local Cα backbone displacement is minimal (0.147 Å), the pathogenic mechanism is not driven by large structural distortion of the protein backbone. Instead, pathogenicity originates from local physicochemical disruption: the polar hydroxyl group disrupts internal hydrophobic packing and alters local hydrogen-bonding networks, destabilizing tertiary folding and impairing UROD catalytic activity below the threshold required for normal heme biosynthesis.
+
 
 ### Physicochemical and Functional Impact of the Variant
 
@@ -93,6 +101,8 @@ Not all nucleotide variants lead to amino acid substitutions, as the degeneracy 
 This study clarifies the molecular pathomechanism of Porphyria Cutanea Tarda Type 2 associated with the UROD p.Ile260Thr variant. Bioinformatic analysis confirmed that the disease originates from a single c.779C>T nucleotide transition. Cross-species comparative alignment demonstrated that while coding DNA sequences diverge significantly over evolutionary time, the UROD protein structure is constrained by strict purifying selection to preserve heme biosynthesis. 3D structural modeling proved that the p.Ile260Thr mutation causes minimal global backbone distortion (RMSD = 0.253 Å). Instead, pathogenicity is driven by the introduction of a hydrophilic hydroxyl group into the buried non-polar core, disrupting internal hydrophobic interactions, destabilizing enzyme folding, and impairing catalytic activity below the clinical penetrance threshold.
 
 ## Methods
+### 3D Structural Modeling and Superposition
+Three-dimensional structural superpositions, root-mean-square deviation (RMSD) calculations, and local Cα backbone displacements were evaluated using the interactive web-based structural visualization module provided by the course instructors for the Introduction to Bioinformatics course (Universitat Politècnica de Catalunya, 2026).
 
 ### Data sources
 
@@ -133,8 +143,7 @@ This work was supported by the Undergraduate Bioinformatics Project curriculum a
 All authors read and approved the final manuscript.
 
 ### Acknowledgements
-We thank the course instructors of Introduction to Bioinformatics (UPC) for providing initial datasets and technical guidance.
-
+We thank the course instructors of Introduction to Bioinformatics (UPC) for providing the initial FASTA sequence datasets and the interactive HTML structural visualization interface used for the 3D conformational analysis.
 
 ## References
 - American Porphyria Foundation. Porphyria Cutanea Tarda (PCT). https://porphyriafoundation.org/for-patients/types-of-porphyria/pct/ (12 October 2026, date last accessed).
