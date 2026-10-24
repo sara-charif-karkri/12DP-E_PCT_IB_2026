@@ -49,7 +49,7 @@ PCT is diagnosed by measuring excess porphyrins in blood, urine (uroporphyrins),
 
 The aim of PCT treatment is to lower the amount of porphyrins in the body. This is done in two ways: by reducing their production with venesection (regular removal of blood to lower iron levels, which allows the UROD enzyme to work again), or by helping the body eliminate them with low doses of chloroquine or hydroxychloroquine [3].
 
-It is also essential to avoid the factors that trigger the disease: stop drinking alcohol and smoking, stop taking estrogens, avoid iron supplements, and treat underlying conditions such as hepatitis C. Patients must also protect their skin from sunlight with clothing and physical sunscreens (Egger et al. 2002).
+It is also essential to avoid the factors that trigger the disease: stop drinking alcohol and smoking, stop taking estrogens, avoid iron supplements, and treat underlying conditions such as hepatitis C. Patients must also protect their skin from sunlight with clothing and physical sunscreens [2].
 
 ### Sequence analysis
 
@@ -165,6 +165,7 @@ We thank the course instructors of Introduction to Bioinformatics (UPC) for prov
 10. Soufleris S, et al. Novel UROD mutation for porphyria cutanea tarda, type 2: a case report. *AME Case Rep*. 2024;8:67.
 11. The Medical Biochemistry Page. Porphyria Cutanea Tarda, PCT [Internet]. Available from: https://themedicalbiochemistrypage.org/porphyria-cutanea-tarda-pct/ [Accessed 12 Oct 2026].
 12. Whitby FG, Phillips JD, Kushner JP, Hill CP. Crystal structure of human uroporphyrinogen decarboxylase. *EMBO J*. 1998;17(9):2463–2471.
-13. NCBI Blast:PCT_CDS_WT. n.d. https://blast.ncbi.nlm.nih.gov/Blast.cgi#Query_7448152 (17 Oct. 2026, date last accessed).
-14. NCBI Blast:PCT_protein_WT. n.d. https://blast.ncbi.nlm.nih.gov/Blast.cgi (17 Oct. 2026, date last accessed).
+13. National Center for Biotechnology Information (NCBI). Basic Local Alignment Search Tool (BLAST): PCT_CDS_WT [Internet]. Available from: https://blast.ncbi.nlm.nih.gov/Blast.cgi [Accessed 17 Oct 2026].
+14. National Center for Biotechnology Information (NCBI). Basic Local Alignment Search Tool (BLAST): PCT_protein_WT [Internet]. Available from: https://blast.ncbi.nlm.nih.gov/Blast.cgi [Accessed 17 Oct 2026].
+```
 
