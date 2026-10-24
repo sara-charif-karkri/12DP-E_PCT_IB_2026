@@ -58,11 +58,7 @@ Because type 2 PCT originates from mutations in the UROD gene, analyzing the mut
 The aims of this study were therefore: to identify the gene and protein corresponding to the wild-type coding sequence (CDS) and protein sequences provided for the project; to confirm the identity of the mutant sequences and to characterize the variant at the nucleotide and amino-acid levels; and to examine whether the variant lies in a region conserved across species, as a first step towards explaining its pathogenic effect.
 
 ## Results
-### 3D Mutation Mapping and Local Conformational Impact
-Structural evaluation of the disease-associated variant at position 260 reveals a missense substitution replacing the wild-type isoleucine with a threonine (p.Ile260Thr). Superposition of the human wild-type and mutant 3D structures demonstrates minimal backbone distortion, yielding a global RMSD of 0.253 Å and a local Cα backbone displacement of only 0.147 Å at position 260. At the corresponding aligned position in the bacterial ortholog (Bacillus subtilis), the residue is occupied by a methionine with a local backbone displacement of 1.329 Å.
 
-![WT versus Mutant 3D Structural View](../figures/3D_superposition_WT_mutant.png)
-**Figure 3.** Local 3D structural superposition centered at position 260 of human uroporphyrinogen decarboxylase (UROD). The ribbon backbone shows the wild-type model superimposed on the mutant model, highlighting the substituted side chains within the internal protein pocket (local Cα displacement = 0.147 Å). Image generated from the interactive course web interface provided by the Introduction to Bioinformatics course instructors (UPC, 2026).
 
 ### Identification and Genomic Context of the Gene and Protein
 
@@ -79,6 +75,15 @@ The variant at the CDS level is therefore a single nucleotide substitution, whil
 
 ![Pairwaise Alignment](../figures/Pairwaise_alignments_of_WT_and_mutant_sequences.png)
 **Figure 2.** Pairwise BLAST alignments of WT (Query) and mutant sequences, query-anchored with dots for identities. A) CDS positions 721–780: the WT thymine at position 779 is replaced by cytosine (c.779T>C). (B) Protein positions 241–300: isoleucine 260 is replaced by threonine (p.Ile260Thr).
+
+### 3D Mutation Mapping and Local Conformational Impact
+Structural evaluation of the disease-associated variant at position 260 reveals a missense substitution replacing the wild-type isoleucine with a threonine (p.Ile260Thr). Superposition of the human wild-type and mutant 3D structures demonstrates minimal backbone distortion, yielding a global RMSD of 0.253 Å and a local Cα backbone displacement of only 0.147 Å at position 260. At the corresponding aligned position in the bacterial ortholog (Bacillus subtilis), the residue is occupied by a methionine with a local backbone displacement of 1.329 Å.
+
+![WT versus Mutant 3D Structural View](../figures/3D_superposition_WT_mutant.png)
+**Figure 3.** Local 3D structural superposition centered at position 260 of human uroporphyrinogen decarboxylase (UROD). The ribbon backbone shows the wild-type model superimposed on the mutant model, highlighting the substituted side chains within the internal protein pocket (local Cα displacement = 0.147 Å). Image generated from the interactive course web interface provided by the Introduction to Bioinformatics course instructors (UPC, 2026).
+
+![Human vs Bacillus subtilis Structural Comparison](../figures/3D_human_vs_bacillus.png)
+**Figure 4.** Structural superposition between human UROD (blue) and Bacillus subtilis ortholog (green), showing high preservation of core alpha-helices and beta-sheets despite evolutionary divergence (global RMSD = 2.81 Å).Image generated from the interactive course web interface provided by the Introduction to Bioinformatics course instructors (UPC, 2026).
 
 ### Multi-Species Sequence Conservation Analysis
 
