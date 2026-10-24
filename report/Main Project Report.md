@@ -1,4 +1,4 @@
-# Porphyria Cutanea Tarda Type 2 (PCT)
+# Porphyria Cutanea Tarda Type 2 (PCT2)
 
 ### Authors: 
 - Sara Charif Karkri: Project Manager, Data & Database Specialist and Structural Analyst 
@@ -7,11 +7,15 @@
 ### _Bioinformatics, UPC, Barcelona, Spain_
 
 ## Abstract
-Porphyria Cutanea Tarda Type 2 (PCT2) is an autosomal dominant metabolic disorder caused by a 50% reduction in uroporphyrinogen decarboxylase (UROD) enzyme activity. In this study, we performed comparative bioinformatic, sequence alignment, and 3D structural analyses to elucidate the molecular basis of a pathogenic UROD variant. Pairwise alignments of human wild-type and disease-associated coding DNA sequences (CDS) and protein chains revealed a single nucleotide transition (c.779C>T) resulting in a missense substitution (p.Ile260Thr). Evolutionary conservation analysis across Homo sapiens, Pan troglodytes, and Bacillus subtilis demonstrated high sequence preservation at the protein level (95% query coverage, E-value = 1e-77), contrasting with high CDS divergence, reflecting strong purifying selection to maintain core catalytic functions. 3D structural superposition yielded a global RMSD of 0.253 Å between wild-type and mutant human models, with a local backbone displacement of only 0.147 Å. These findings confirm that the pathogenic mechanism of the p.Ile260Thr variant is driven by local physicochemical disruption—substituting a buried hydrophobic isoleucine with a polar threonine in the internal core—rather than global structural distortion, destabilizing enzyme folding and disrupting heme biosynthesis.
+**Background:** Porphyria cutanea tarda (PCT) type 2 (PCT2) is an autosomal dominant metabolic disorder caused by a 50% reduction in uroporphyrinogen decarboxylase (UROD) enzyme activity. In this study, we performed comparative bioinformatic, sequence alignment, and three-dimensional (3D) structural analyses to elucidate the molecular basis of a pathogenic _UROD_ variant.
+
+**Results:** Pairwise alignments of human wild-type and disease-associated coding DNA sequences (CDS) and protein chains revealed a single nucleotide transition (c.779T>C) resulting in a missense substitution (p.Ile260Thr). Evolutionary conservation analysis across _Homo sapiens_, _Pan troglodytes_, and _Bacillus subtilis_ demonstrated detectable conservation along 95% of the protein (95% query coverage, E-value 1e-77, 38.70% identity), contrasting with a CDS alignment restricted to 12% of the sequence, reflecting purifying selection to maintain core catalytic functions. 3D structural superposition yielded a global root-mean-square deviation (RMSD) of 0.253 Å between wild-type and mutant human models, with a local backbone displacement of only 0.147 Å.
+
+**Conclusions:** These findings suggest that the p.Ile260Thr variant does not change the overall shape of the enzyme; instead, replacing the non-polar isoleucine with a polar threonine close to the active site may change how the neighbouring amino acids interact, reducing UROD activity and hence heme biosynthesis.
 
 ## Keywords
 
-Uroporphyrinogen decarboxylase (UROD), porphyria cutanea tarda type 2 (PCT), Basic Local Alignment Search Tool (BLAST), missense mutation, sequence conservation, penetrance.
+Uroporphyrinogen decarboxylase (UROD), porphyria cutanea tarda type 2 (PCT2), Basic Local Alignment Search Tool (BLAST), missense mutation, sequence conservation, penetrance.
 
 ## Background
 
