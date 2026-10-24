@@ -2,7 +2,7 @@
 
 ### Authors: 
 - Sara Charif Karkri: Project Manager, Data & Database Specialist and Structural Analyst 
-- Laia Núñez: Disease & Literature Specialist and Sequence analyst
+- Laia Núñez: Disease & Literature Specialist, Sequence analyst and Responsible for the biological foundation of the project
 
 ### _Bioinformatics, UPC, Barcelona, Spain_
 
