@@ -13,7 +13,7 @@
 | 2.3 Retrieve 3D structures (PDB) | Sara | 13/10 | 14/10 |  |  | Canceled | It would be too difficult so the teachers told us we do not have to do it. |
 | 3.1 Pairwise alignment WT(wild-type) vs mutant | Laia | 9/10 | 13/10 | 14/10 | 15/10 | Completed | Laia developed the task in the laboratory class.|
 | 3.2 Pairwise and multiple alignment: human vs  homologs | Sara | 14/10  | 15/10 | 14/10  | 15/10 | Completed | Sara started the task. |
-| 3.3 Conservation analysis and interpretation | Sara | 16/10 | 19/10/26 |  |  | Incident | Eva and Lídia have withdrawn from the project. So Laia and Sara are going to do the tasks that correspond to them. |
+| 3.3 Conservation analysis and interpretation | Sara | 16/10 | 19/10 | 16/10 | 19/10 | Incident | Eva and Lídia have withdrawn from the project. So Laia and Sara are going to do the tasks that correspond to them. |
 | Updated Gantt | Sara | 20/10 | 20/10 | 20/10 |20/10  | Completed | Sara has updated the Gantt chart according to the new situation. |
 | 4.1 Analyse WT structure  | Sara | 08/10 | 09/10 | 19/10| 19/10 | Completed | From the html file it has been done the task. |
 | 4.2 Map mutation onto structure, compare WT(wild-type) vs mutant  | Sara | 13/10 | 14/10 |  | |Canceled | From the html file it is already done. |
