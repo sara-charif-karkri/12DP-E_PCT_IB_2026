@@ -114,25 +114,27 @@ This study clarifies the molecular pathomechanism of Porphyria Cutanea Tarda Typ
 
 ## Methods
 
-### 3D Structural Modeling and Superposition
-
-Three-dimensional structural superpositions, root-mean-square deviation (RMSD) calculations, and local Cα backbone displacements were evaluated using the interactive web-based structural visualization module provided by the course instructors for the Introduction to Bioinformatics course (Universitat Politècnica de Catalunya, 2026).
-
 ### Data sources
 
-The CDS and protein sequences corresponding to the wild-type (WT) and mutant variants were initially provided in FASTA format. To carry out the research, a series of searches was performed in the NCBI nucleotide and protein databases. Among the highest-scoring results, curated NCBI Reference Sequence (RefSeq) entries (NM_ for mRNA and NP_ for protein accessions) were prioritized over predicted entries (XM_ and XP_). The gene locus, chromosome, number of exons, and tissue expression were obtained from the NCBI Gene record linked to the selected RefSeq entries.
+The CDS and protein sequences corresponding to the wild-type (WT) and mutant variants were initially provided in FASTA format. To carry out the research, a series of searches was performed in the NCBI nucleotide and protein databases. Among the highest-scoring results, curated NCBI Reference Sequence (RefSeq) entries (NM_ for mRNA and NP_ for protein accessions) were prioritized over predicted entries (XM_ and XP_); for _Pan troglodytes_, only predicted RefSeq records (XM_513127.7 and XP_513127.1) were available and were therefore used. The gene locus, chromosome, number of exons, and tissue expression were obtained from the NCBI Gene record linked to the selected RefSeq entries.
 
 ### Implementation
 
-The WT and mutant CDS were searched with BLASTn and the WT and mutant proteins with BLASTp using default parameters in both cases. To identify homologs, the searches were repeated using the human WT sequences as queries, and the search was restricted to the organism Bacillus subtilis (the assigned species) or Pan troglodytes (the additional species). Finally, the homologous CDS and protein sequences were downloaded in FASTA format for further analysis. Pairwise comparisons (WT vs. mutant) and cross-species comparisons were performed with the BLAST 'Align two or more sequences' option, and alignments were inspected in the 'Query-anchored with dots for identities' view. Variants were annotated with the c. (CDS) and p. (protein) notations.
+The WT and mutant CDS were searched with BLASTn and the WT and mutant proteins with BLASTp (NCBI web BLAST) using default parameters in both cases; To identify homologs, the searches were repeated using the human WT sequences as queries, and the search was restricted to the organism _Bacillus subtilis_ (the assigned species) or _Pan troglodytes_ (the additional species).
+
+Finally, the homologous CDS and protein sequences were downloaded in FASTA format for further analysis. Pairwise comparisons (WT vs. mutant) and cross-species comparisons were performed with the BLAST 'Align two or more sequences' option, and alignments were inspected in the 'Query-anchored with dots for identities' view. Variants were annotated with the c. (CDS) and p. (protein) notations.
+
+### 3D Structural Modelling and Superposition
+
+Three-dimensional structural superpositions, root-mean-square deviation (RMSD) calculations, and local Cα backbone displacements were evaluated using the interactive web-based structural visualization module provided by the course instructors for the Introduction to Bioinformatics course (Universitat Politècnica de Catalunya, 2026). The module superposes the human WT structure on a model of the p.Ile260Thr mutant and on the structure of the _Bacillus subtilis_ ortholog, reports the global RMSD, the per-residue Cα displacement, and the secondary structure of each aligned position, and displays the WT and mutant side chains at the variant position.
 
 ### Statistical Analysis
 
-Each hit was evaluated by combining query coverage (percentage of the query included in the alignment), percent identity (percentage of identical aligned positions), and E-value (number of matches of similar quality expected by chance in a database of that size), together with the sequence description, organism, and accession type. Additionally, side-chain physicochemical properties (size, charge, polarity and hydrophobicity) were evaluated to predict the effect of the amino-acid substitution on UROD structure and activity, and thus its potential role in the pathogenesis of porphyria cutanea tarda type 2 (PCT2).
+Each hit was evaluated by combining query coverage (percentage of the query included in the alignment), percent identity (percentage of identical aligned positions), and E-value (number of matches of similar quality expected by chance in a database of that size), together with the sequence description, organism, and accession type. Additionally, side-chain physicochemical properties (size, charge, polarity, and hydrophobicity) were evaluated to predict the effect of the amino-acid substitution on UROD structure and activity, and thus its potential role in the pathogenesis of porphyria cutanea tarda type 2 (PCT2).
 
 ## Abbreviations
 
-BLAST: Basic Local Alignment Search Tool; CDS: coding DNA sequence; NCBI: National Center for Biotechnology Information; PCT: porphyria cutanea tarda; PCT2: PCT type 2; RefSeq: NCBI Reference Sequence; RMSD: root-mean-square deviation; TPM: transcripts per million; UROD: uroporphyrinogen decarboxylase; WT: wild type.
+3D: three-dimensional; BLAST: Basic Local Alignment Search Tool; CDS: coding DNA sequence; EC: Enzyme Commission; HGVS: Human Genome Variation Society; HIV: human immunodeficiency virus; NCBI: National Center for Biotechnology Information; nt: nucleotides; PCT: porphyria cutanea tarda; PCT2: PCT type 2; RefSeq: NCBI Reference Sequence; RMSD: root-mean-square deviation; RPKM: reads per kilobase of transcript per million mapped reads; UROD: uroporphyrinogen decarboxylase; UTR: untranslated region; WT: wild type.
 
 ## Declarations
 ### Ethics approval and consent to participate
@@ -142,7 +144,7 @@ Not applicable. This study utilizes publicly available, anonymized bioinformatic
 Not applicable.
 
 ### Availability of data and materials
-All sequence files, 3D structural models, alignments, and project code are available in the public GitHub repository: https://github.com/sara-charif-karkri/12DP-E_PCT_IB_2026.git
+All sequence files (the FASTA files of the WT and mutant CDS and proteins and of the _Pan troglodytes_ and _Bacillus subtilis_ homologs), figures, and cited references are available in the public GitHub repository: https://github.com/sara-charif-karkri/12DP-E_PCT_IB_2026.git
 
 ### Competing interests
 The authors declare that they have no competing interests.
@@ -151,13 +153,14 @@ The authors declare that they have no competing interests.
 This work was supported by the Undergraduate Bioinformatics Project curriculum at Universitat Politècnica de Catalunya (UPC).
 
 ### Authors' contributions
-- **Laia Núñez Palma:** Conducted disease background research, clinical characterization, penetrance, and risk factor analyses.Performed pairwise CDS/protein alignments, multi-species conservation analyses, and mutation mapping.
-- **Sara Charif Karkri:** Retrieved and validated FASTA datasets, curated NCBI RefSeq entries, selected species orthologs, and gathered PDB structures.Performed local physicochemical cavity analysis. Managed project timeline, Gantt tracking, GitHub repository administration, and final report compilation.
+- **Laia Núñez Palma** (disease and literature specialist, sequence analyst, responsible for the biological foundation of the project): Conducted disease background research, clinical characterization, penetrance, and risk factor analyses. Performed pairwise CDS/protein alignments, multi-species conservation analyses, and mutation mapping.
+- **Sara Charif Karkri el Abbassi** (project manager, data and database specialist, structural analyst): Retrieved and validated FASTA datasets, curated NCBI RefSeq entries, selected species orthologs, and gathered PDB structures. Performed local physicochemical cavity analysis. Managed project timeline, Gantt tracking, GitHub repository administration, and final report compilation.
 
 All authors read and approved the final manuscript.
 
 ### Acknowledgements
 We thank the course instructors of Introduction to Bioinformatics (UPC) for providing the initial FASTA sequence datasets and the interactive HTML structural visualization interface used for the 3D conformational analysis and technical guidance.
+
 
 ## References
 - American Porphyria Foundation. Porphyria Cutanea Tarda (PCT). https://porphyriafoundation.org/for-patients/types-of-porphyria/pct/ (12 October 2026, date last accessed).
@@ -172,5 +175,4 @@ We thank the course instructors of Introduction to Bioinformatics (UPC) for prov
 - Soufleris S et al. Novel UROD mutation for porphyria cutanea tarda, type 2: a case report. AME Case Rep 2024;8:67.
 - The Medical Biochemistry Page. Porphyria Cutanea Tarda, PCT. https://themedicalbiochemistrypage.org/porphyria-cutanea-tarda-pct/ (12 October 2026, date last accessed).
 - Whitby FG et al. Crystal structure of human uroporphyrinogen decarboxylase. EMBO J 1998;17:2463–71.
-```
 
