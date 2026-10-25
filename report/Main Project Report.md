@@ -1,8 +1,6 @@
 # Porphyria Cutanea Tarda Type 2 (PCT2)
 
-### Authors: 
-- Sara Charif Karkri: Project Manager, Data & Database Specialist and Structural Analyst 
-- Laia Núñez: Disease & Literature Specialist, Sequence analyst and Responsible for the biological foundation of the project
+### Authors: Sara Charif Karkri el Abbassi and Laia Núñez Palma
 
 ### _Bioinformatics, UPC, Barcelona, Spain_
 
@@ -19,11 +17,11 @@ Uroporphyrinogen decarboxylase (UROD), porphyria cutanea tarda type 2 (PCT2), Ba
 
 ## Background
 
-Porphyria cutanea tarda (PCT) type 2 (PCT2) is a rare metabolic disorder characterized by a 50% reduction in the activity of the enzyme UROD (uroporphyrinogen decarboxylase) (Soufleris et al. 2024).
+Porphyria cutanea tarda (PCT) type 2 (PCT2) is a rare metabolic disorder characterized by a 50% reduction in the activity of the enzyme uroporphyrinogen decarboxylase (UROD) (Soufleris et al. 2024).
 
-The principal function of this enzyme is to assist in the production of heme, an essential component for creating hemoglobin (which gives blood its red color and transports oxygen) and for enabling the liver to eliminate toxins (Online Mendelian Inheritance in Man n.d.). Specifically, the protein UROD, encoded by the gene also called UROD, catalyzes the sequential decarboxylation of the four acetate side chains of uroporphyrinogen III to yield coproporphyrinogen III, an indispensable step in the heme biosynthesis pathway. Because this step is required for fundamental cellular metabolism, the enzyme is present in both prokaryotic and eukaryotic organisms (Whitby 1998).
+The principal function of this enzyme is to assist in the production of heme, an essential component for creating hemoglobin (which gives blood its red colour and transports oxygen) and for enabling the liver to eliminate toxins (Online Mendelian Inheritance in Man n.d.). Specifically, the protein UROD, encoded by the gene also called UROD, catalyzes the sequential decarboxylation of the four acetate side chains of uroporphyrinogen III to yield coproporphyrinogen III, an indispensable step in the heme biosynthesis pathway. Because this step is required for fundamental cellular metabolism, the enzyme is present in both prokaryotic and eukaryotic organisms (Whitby et al. 1998).
 
-This hereditary condition affects both men and women, as it is transmitted in an autosomal dominant pattern. This means that the gene responsible is located on a non-sex chromosome (autosome), and inheriting a single mutated copy of the UROD gene from either parent is sufficient to predispose an individual to the disease (MSD Manuals n.d.b).
+This hereditary condition affects both men and women, as it is transmitted in an autosomal dominant pattern. This means that the gene responsible is located on a non-sex chromosome (autosome), and inheriting a single mutated copy of the _UROD_ gene from either parent is sufficient to predispose an individual to the disease (MSD Manuals n.d.b).
 
 Each child of a carrier has a 50% chance of inheriting the altered gene, and most carriers inherit it from a parent who is completely asymptomatic. The reason why carriers produce only 50% of the fully functional UROD enzyme is that cells use both copies of the gene (one from the father and one from the mother) and since one copy is defective, only half of the normal amount is produced (Soufleris et al. 2024).
 
@@ -31,40 +29,39 @@ Each child of a carrier has a 50% chance of inheriting the altered gene, and mos
 
 The manifestations of this disease are mainly cutaneous and result from the accumulation of porphyrins (organic molecules involved in heme biosynthesis that do not contain iron). Accumulated porphyrinogens are oxidized to porphyrins, which deposit in the skin and, when activated by sunlight, generate reactive oxygen species that damage the skin (MSD Manuals n.d.a).
 
-The most common symptoms are: extreme skin fragility (the skin erodes or peels off with minimal friction); blisters and vesicles that leave erosions, crusts and scars (appearing predominantly on sun-exposed areas such as the backs of the hands, forearms, and face); pigmentation changes (hyperpigmentation or hypopigmentation); dark reddish-brown urine and increased growth of fine hair, especially on the face (Orphanet n.d.).
+The most common symptoms are: extreme skin fragility (the skin erodes or peels off with minimal friction); blisters and vesicles that leave erosions, crusts, and scars (appearing predominantly on sun-exposed areas such as the backs of the hands, forearms, and face); pigmentation changes (hyperpigmentation or hypopigmentation); dark reddish-brown urine and increased growth of fine hair, especially on the face (Orphanet n.d.).
 
 ### Penetrance
 
-In hereditary PCT2, the UROD deficiency is present in all body tissues, including red blood cells (National Center for Biotechnology Information n.d.), unlike type 1 (sporadic/acquired), in which the deficiency is restricted to the liver. In principle, this might suggest that anyone with the mutation would manifest symptoms of the disease; however, PCT2 involves a genetic phenomenon known as incomplete penetrance, where carrying the mutation does not guarantee the development of the pathology (The Medical Biochemistry Page n.d.).
+In hereditary PCT2, the UROD deficiency is present in all body tissues, including red blood cells (MSD Manuals n.d.b, Soufleris et al. 2024), unlike type 1 (sporadic/acquired), in which the deficiency is restricted to the liver. In principle, this might suggest that anyone with the mutation would manifest symptoms of the disease; however, PCT2 involves a genetic phenomenon known as incomplete penetrance, where carrying the mutation does not guarantee the development of the pathology (The Medical Biochemistry Page n.d.).
 
-Most individuals with the mutation are asymptomatic (latent carriers), and only a minority develop the disease. This occurs because the inherited mutation reduces UROD activity by half; however, under normal conditions this residual activity is sufficient for heme synthesis (American Porphyria Foundation n.d.).
+Most individuals with the mutation are asymptomatic (latent carriers), and only a minority develop the disease. This occurs because the inherited mutation reduces UROD activity by half; however, under normal conditions this residual activity is sufficient for heme synthesis (American Porphyria Foundation n.d., MSD Manuals n.d.b, Soufleris et al. 2024).
 
-For the disease to manifest clinically (presenting with characteristic symptoms such as skin fragility and blistering upon exposure to sunlight), the patient's liver must be exposed to environmental factors that cause hepatic enzyme activity to drop below 20-25% of normal (MSD Manuals n.d.a).
+For the disease to manifest clinically (presenting with characteristic symptoms such as skin fragility and blistering upon exposure to sunlight), the patient's liver must be exposed to environmental factors that cause hepatic enzyme activity to drop by more than 75% (MSD Manuals n.d.b).
 
 ### Risk factors
 
-Studies show that, in the majority of cases, individuals who develop PCT2 have been exposed to factors that place oxidative stress on the liver, such as iron overload, excessive alcohol or tobacco use, chronic viral infections (e.g., hepatitis C or HIV), end-stage renal disease on hemodialysis, the use of estrogen-containing medications (contraceptives or hormone therapies), or exposure to industrial chemicals (Egger et al. 2002, International Porphyria Network n.d.).
+Studies show that, in the majority of cases, individuals who develop PCT2 have been exposed to factors that place oxidative stress on the liver, such as iron overload, excessive alcohol or tobacco use, chronic viral infections (e.g. hepatitis C or human immunodeficiency virus, HIV), end-stage renal disease on hemodialysis, the use of estrogen-containing medications (contraceptives or hormone therapies), or exposure to industrial chemicals (Egger et al. 2002, International Porphyria Network n.d.).
 
 ### Diagnosis
 
-PCT is diagnosed by measuring excess porphyrins in blood, urine (uroporphyrins), and stool (isocoproporphyrins) samples. Distinguishing type 1 from type 2 requires measuring erythrocyte UROD activity (reduced to ~50% in type 2, normal in type 1) and genetic testing of the UROD gene (Mayo Clinic n.d.).
+PCT is diagnosed by measuring excess porphyrins in blood, urine (uroporphyrins), and stool (isocoproporphyrins) samples. Distinguishing type 1 from type 2 requires measuring erythrocyte UROD activity (reduced to ~50% in type 2, normal in type 1) and genetic testing of the _UROD_ gene (Mayo Clinic n.d., MSD Manuals n.d.b).
 
 ### Treatment
 
 The aim of PCT treatment is to lower the amount of porphyrins in the body. This is done in two ways: by reducing their production with venesection (regular removal of blood to lower iron levels, which allows the UROD enzyme to work again), or by helping the body eliminate them with low doses of chloroquine or hydroxychloroquine (International Porphyria Network n.d.).
 
-It is also essential to avoid the factors that trigger the disease: stop drinking alcohol and smoking, stop taking estrogens, avoid iron supplements, and treat underlying conditions such as hepatitis C. Patients must also protect their skin from sunlight with clothing and physical sunscreens (Egger et al. 2002).
+It is also essential to avoid the factors that trigger the disease: stop drinking alcohol and smoking, stop taking estrogens, avoid iron supplements, and treat underlying conditions such as hepatitis C. Patients must also protect their skin from sunlight with clothing and physical sunscreens (International Porphyria Network n.d.).
 
 ### Sequence analysis
 
-Because PCT2 originates from mutations in the UROD gene, analyzing the mutated sequence can help explain how a single genetic change reduces the activity of the enzyme. Biological sequences can be compared to identify similarities and differences. Sequence comparison with BLAST makes it possible to identify unknown DNA and protein sequences, to locate the variant that distinguishes a disease-associated sequence from the wild-type (WT) sequence, and to search for homologous sequences in other species. Conserved positions, which have remained similar during evolution, can indicate regions that are important for protein structure or function.
+Because PCT2 originates from mutations in the _UROD_ gene, analysing the mutated sequence can help explain how a single genetic change reduces the activity of the enzyme. Biological sequences can be compared to identify similarities and differences. Sequence comparison with the Basic Local Alignment Search Tool (BLAST) makes it possible to identify unknown DNA and protein sequences, to locate the variant that distinguishes a disease-associated sequence from the wild-type (WT) sequence, and to search for homologous sequences in other species. Conserved positions, which have remained similar during evolution, can indicate regions that are important for protein structure or function.
 
 ### Aims of the study
 
-The aims of this study were therefore: to identify the gene and protein corresponding to the wild-type coding sequence (CDS) and protein sequences provided for the project; to confirm the identity of the mutant sequences and to characterize the variant at the nucleotide and amino-acid levels; and to examine whether the variant lies in a region conserved across species, as a first step towards explaining its pathogenic effect.
+The aims of this study were therefore: to identify the gene and protein corresponding to the wild-type coding sequence (CDS) and protein sequences provided for the project; to confirm the identity of the mutant sequences and to characterize the variant at the nucleotide and amino-acid levels; to examine whether the variant lies in a region conserved across species; and to assess its effect on the three-dimensional (3D) structure of the enzyme, as a first step towards explaining its pathogenic effect.
 
 ## Results
-
 
 ### Identification and Genomic Context of the Gene and Protein
 
