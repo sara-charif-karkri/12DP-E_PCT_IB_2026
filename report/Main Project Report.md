@@ -65,19 +65,34 @@ The aims of this study were therefore: to identify the gene and protein correspo
 
 ### Identification and Genomic Context of the Gene and Protein
 
-The protein identified directly corresponds to the gene found in the WT CDS search, as the functional uroporphyrinogen decarboxylase enzyme is translated directly from this genetic sequence. Following standard nomenclature, both the gene and its protein share the symbol **UROD**. Located on chromosome 1 at position 1p34.1 (genomic reference NC_000001.11), the **UROD** gene consists of 10 exons. Gene expression analysis shows active transcription across major human fetal tissues—including the heart, kidneys, lungs, stomach, intestines, and adrenal glands—highlighting its essential role in early development.
+Four FASTA sequences were provided for the project: the WT CDS, the WT protein, the mutant CDS, and the mutant protein. The BLAST searches of the two WT sequences confirmed that they belong to the same gene. The WT CDS matched the curated human mRNA NM_000374.5 (_UROD_, _Homo sapiens_), and the WT protein matched the curated protein NP_000365.3 (uroporphyrinogen decarboxylase), which is the protein encoded by that mRNA. In both searches these records were the first hit, covering 100% of the query with 100% identity and an E-value of 0.0 (Table 1). Table 1 summarizes the coverage, identity, and E-value of every BLAST comparison made in this study.
 
-![Human Fetal Tissues](../figures/Human_fetal_tissues.png)
-**Figure 1.** Expression of UROD (transcripts per million, TPM) in 35 human fetal samples from six tissues collected between 10
-and 20 weeks of gestation. Bars show the mean per tissue and time point. Source: National Center for Biotechnology Information (n.d.).
+The gene and its protein share the same symbol, UROD, as is usual in gene nomenclature. According to the National Center for Biotechnology Information (NCBI) Gene record, the gene is located on chromosome 1, at position 1p34.1 (reference sequence NC_000001.11), and has 10 exons. It is expressed in all 27 tissues examined, which is consistent with the enzyme defect of PCT2 being present in all cells, including liver cells (hepatocytes) and red blood cells. It is also expressed during development: fetal data show transcription in the six tissues examined (heart, kidney, lung, stomach, intestine, and adrenal gland).
+
+| Query | Subject (accession, organism) | Program | Query coverage | Identities | Positives | Gaps | E-value |
+|---|---|---|---|---|---|---|---|
+| WT CDS (1104 nt) | NM_000374.5, _Homo sapiens_ UROD mRNA | BLASTn, core_nt | 100% | 100% (1104/1104) | – | 0/1104 | 0.0 |
+| WT protein (367 amino acids) | NP_000365.3, _Homo sapiens_ UROD | BLASTp, nr | 100% | 100% (367/367) | 367/367 (100%) | 0/367 | 0.0 |
+| Mutant CDS (1104 nt) | NM_000374.5, _Homo sapiens_ UROD mRNA | BLASTn, core_nt | 100% | 99.91% (1103/1104) | – | 0/1104 | 0.0 |
+| Mutant protein (367 amino acids) | NP_000365.3, _Homo sapiens_ UROD | BLASTp, nr | 100% | 99.73% (366/367) | 366/367 (99%) | 0/367 | 0.0 |
+| WT CDS | XM_513127.7, _Pan troglodytes_ UROD mRNA (CDS 594–1697) | BLASTn, core_nt search (excluding _Homo sapiens_) and two sequences | 100% | 99.64% (1100/1104) | – | 0/1104 | 0.0 |
+| WT CDS | NZ_JAXKIH010000008.1:c180787-179726, _Bacillus subtilis_ hemE CDS | BLASTn, two sequences | 12% | 67.15% (92/137) | – | 3/137 | 1e-05 |
+| WT protein | XP_513127.1, _Pan troglodytes_ UROD isoform X1 | BLASTp, nr search (_Pan troglodytes_) and two sequences | 100% | 99.73% (366/367) | 366/367 (99%) | 0/367 | 0.0 |
+| WT protein | WP_327829039.1, _Bacillus subtilis_ uroporphyrinogen decarboxylase | BLASTp, two sequences | 95% | 38.70% (137/354) | 206/354 (58%) | 17/354 | 1e-77 |
+**Table 1.** Summary of the BLAST comparisons performed in this study. Query coverage, identities, positives, gaps, and E-value are those reported by NCBI BLAST.
 
 ### Sequence Alignment and Mutation Characterization
-A pairwise alignment confirms that the mutant CDS originates from the exact same genetic locus as the wild-type CDS, showing complete query coverage, an E-value of zero, and 99.91% sequence identity. The only discrepancy between the two sequences is a single nucleotide substitution at position 779 of the query sequence (position 791 of the subject sequence), where the wild-type thymine (T) is replaced by cytosine (C) (c.779T>C). Evaluating this substitution within its codon reading frame reveals a missense mutation that changes codon 260 from ATC to ACC, thereby substituting isoleucine with threonine. At the protein level, the alignment confirms that the mutant protein matches wild-type UROD with full query coverage, an E-value of zero, and 99.73% sequence identity, differing solely by a single amino acid substitution (p.Ile260Thr) at position 260. No nucleotides were inserted or deleted, so the reading frame is preserved and no frameshift occurs.
 
-The variant at the CDS level is therefore a single nucleotide substitution, while at the protein level it results in a single amino-acid substitution, replacing a large, hydrophobic isoleucine with a smaller, polar threonine at position 260. A minor point mutation in the genetic code thus leads to a significant change in the physical and chemical properties of the protein chain.
+The two mutant sequences, the mutant CDS and the mutant protein, were searched in the same way. The mutant CDS also matched NM_000374.5 as the best curated hit, covering 100% of the query with an E-value of 0.0 and 99.91% identity, so it comes from the same gene as the WT CDS. The two sequences differ at a single nucleotide: position 779 of the CDS. At that position the WT thymine (T) is replaced by a cytosine (C), written c.779T>C. Reading the CDS in codons, position 779 is the second base of codon 260 (c.778–c.780), which changes from ATC to ACC; ATC codes for isoleucine and ACC for threonine, so the change is a missense mutation.
 
-![Pairwaise Alignment](../figures/Pairwaise_alignments_of_WT_and_mutant_sequences.png)
-**Figure 2.** Pairwise BLAST alignments of WT (Query) and mutant sequences, query-anchored with dots for identities. A) CDS positions 721–780: the WT thymine at position 779 is replaced by cytosine (c.779T>C). (B) Protein positions 241–300: isoleucine 260 is replaced by threonine (p.Ile260Thr).
+The mutant protein also matched NP_000365.3, covering 100% of the query with an E-value of 0.0 and 99.73% identity, and its only difference from the WT protein is this isoleucine-to-threonine substitution at position 260, written p.Ile260Thr.
+
+Finally, a direct alignment of the WT and mutant sequences confirmed that nothing was inserted or deleted: there are no gaps, the reading frame is preserved, and no frameshift occurs (Figure 1).
+
+The variant at the CDS level is therefore a single nucleotide substitution, while at the protein level it results in a single amino-acid substitution, replacing a large, hydrophobic isoleucine with a smaller, polar threonine at position 260. A minor point mutation in the genetic code thus leads to a significant change in the physical and chemical properties of the protein chain. In practice, a non-polar residue such as isoleucine avoids water and packs against other non-polar residues, whereas a polar residue such as threonine can form hydrogen bonds; the consequences of this change are examined in the Discussion.
+
+![Pairwise alignment](../figures/Pairwaise_alignments_of_WT_and_mutant_sequences.png)
+**Figure 1.** Pairwise BLAST alignments of WT (Query) and mutant sequences, query-anchored with dots for identities. (A) CDS positions 721–780: the WT thymine at position 779 is replaced by cytosine (c.779T>C). (B) Protein positions 241–300: isoleucine 260 is replaced by threonine (p.Ile260Thr).
 
 ### 3D Mutation Mapping and Local Conformational Impact
 Structural evaluation of the disease-associated variant at position 260 reveals a missense substitution replacing the wild-type isoleucine with a threonine (p.Ile260Thr). Superposition of the human wild-type and mutant 3D structures demonstrates minimal backbone distortion, yielding a global RMSD of 0.253 Å and a local Cα backbone displacement of only 0.147 Å at position 260. At the corresponding aligned position in the bacterial ortholog (Bacillus subtilis), the residue is occupied by a methionine with a local backbone displacement of 1.329 Å.
@@ -111,19 +126,19 @@ This study has three main limitations. First, conservation was examined in only 
 
 ## Conclusions
 
-This study proposes a molecular pathomechanism for Porphyria Cutanea Tarda Type 2 associated with the _UROD_ p.Ile260Thr variant. Bioinformatic analysis showed that the disease-associated sequence differs from the wild type by a single c.779T>C nucleotide transition. Cross-species comparative alignment demonstrated that while coding DNA sequences diverge significantly over evolutionary time, the UROD protein sequence is constrained by purifying selection to preserve heme biosynthesis, with its substrate-binding and hydrophobic core residues identical in the three species. 3D structural superposition indicated that the p.Ile260Thr mutation causes minimal global backbone distortion (RMSD = 0.253 Å). Instead, pathogenicity is likely to be driven by the introduction of a hydrophilic hydroxyl group into the buried non-polar core, which may disrupt local hydrophobic interactions, destabilize the enzyme, and impair its catalytic activity; combined with environmental triggers, this reduction could lower hepatic UROD activity below the threshold required for clinical manifestation.
+This study proposes a molecular pathomechanism for porphyria cutanea tarda type 2 associated with the _UROD_ p.Ile260Thr variant. Bioinformatic analysis showed that the disease-associated sequence differs from the wild type by a single c.779T>C nucleotide transition. Cross-species comparative alignment demonstrated that while coding DNA sequences diverge significantly over evolutionary time, the UROD protein sequence is constrained by purifying selection to preserve heme biosynthesis, with its substrate-binding and hydrophobic core residues identical in the three species. 3D structural superposition indicated that the p.Ile260Thr mutation causes minimal global backbone distortion (RMSD = 0.253 Å). Instead, pathogenicity is likely to be driven by the introduction of a hydrophilic hydroxyl group into the buried non-polar core, which may disrupt local hydrophobic interactions, destabilize the enzyme, and impair its catalytic activity; combined with environmental triggers, this reduction could lower hepatic UROD activity below the threshold required for clinical manifestation.
 
 ## Methods
 
 ### Data sources
 
-The CDS and protein sequences corresponding to the wild-type (WT) and mutant variants were initially provided in FASTA format. To carry out the research, a series of searches was performed in the NCBI nucleotide and protein databases. Among the highest-scoring results, curated NCBI Reference Sequence (RefSeq) entries (NM_ for mRNA and NP_ for protein accessions) were prioritized over predicted entries (XM_ and XP_); for _Pan troglodytes_, only predicted RefSeq records (XM_513127.7 and XP_513127.1) were available and were therefore used. The gene locus, chromosome, number of exons, and tissue expression were obtained from the NCBI Gene record linked to the selected RefSeq entries.
+The CDS and protein sequences corresponding to the wild-type (WT) and mutant variants were initially provided in FASTA format. To carry out the research, a series of searches was performed in the NCBI nucleotide and protein databases. Among the highest-scoring results, curated NCBI Reference Sequence (RefSeq) entries (NM_ for mRNA and NP_ for protein accessions) were prioritized over predicted entries (XM_ and XP_); for _Pan troglodytes_, the search returned only predicted RefSeq records (XM_513127.7 and XP_513127.1), which were therefore used. The gene locus, chromosome, number of exons, and tissue expression were obtained from the NCBI Gene record linked to the selected RefSeq entries.
 
 ### Implementation
 
-The WT and mutant CDS were searched with BLASTn and the WT and mutant proteins with BLASTp (NCBI web BLAST) using default parameters in both cases; To identify homologs, the searches were repeated using the human WT sequences as queries, and the search was restricted to the organism _Bacillus subtilis_ (the assigned species) or _Pan troglodytes_ (the additional species).
+The WT and mutant CDS were searched with BLASTn, and the WT and mutant proteins with BLASTp, on the NCBI BLAST website, against the core_nt nucleotide database and the non-redundant protein database (nr), with the default settings (megablast for nucleotides; BLOSUM62 matrix for proteins). To find the homologs, the same searches were repeated with the human WT sequences. For the assigned species, BLASTn was run against the RefSeq Genome Database restricted to _Bacillus subtilis_ (taxid 1423) with the blastn algorithm for somewhat similar sequences (match/mismatch scores 1/−1, word size 7, gap costs 5/2, expect threshold 0.05), because the default settings detect no similarity between the human and bacterial CDS; the hits were the _hemE_ gene in _Bacillus subtilis_ genomes, and the RefSeq accession NZ_JAXKIH010000008.1 was selected. For the additional species, BLASTn was run against the core_nt database excluding _Homo sapiens_, and _Pan troglodytes_ was chosen among the best hits.
 
-Finally, the homologous CDS and protein sequences were downloaded in FASTA format for further analysis. Pairwise comparisons (WT vs. mutant) and cross-species comparisons were performed with the BLAST 'Align two or more sequences' option, and alignments were inspected in the 'Query-anchored with dots for identities' view. Variants were annotated with the c. (CDS) and p. (protein) notations.
+The sequences of the homologs were downloaded in FASTA format from NCBI: for _Bacillus subtilis_, the _hemE_ CDS from the nucleotide record NZ_JAXKIH010000008.1 (complement of positions 179726–180787, 1062 nt) and its protein WP_327829039.1 (353 amino acids) from the protein record; for _Pan troglodytes_, the mRNA XM_513127.7, whose CDS occupies positions 594–1697, from the nucleotide record, and the proteins of the gene from its NCBI Gene record with NCBI Datasets, a file that contains five predicted entries corresponding to four isoforms (X1 to X4), of which the full-length isoform X1 (XP_513127.1, 367 amino acids) was used. The WT and mutant sequences, and the human sequence against each homolog, were compared with the BLAST option 'Align two or more sequences', and the alignments were read in the 'Query-anchored with dots for identities' view, in which a dot marks a position identical to the query sequence. For each comparison, query coverage, identities, positives, gaps, and E-value were noted (Table 1). The variant was named with the c. (CDS) and p. (protein) notation, and the amino-acid change was checked by reading the affected codon in frame and translating it with the standard genetic code.
 
 ### 3D Structural Modelling and Superposition
 
@@ -135,7 +150,7 @@ Each hit was evaluated by combining query coverage (percentage of the query incl
 
 ## Abbreviations
 
-3D: three-dimensional; BLAST: Basic Local Alignment Search Tool; CDS: coding DNA sequence; EC: Enzyme Commission; HGVS: Human Genome Variation Society; HIV: human immunodeficiency virus; NCBI: National Center for Biotechnology Information; nt: nucleotides; PCT: porphyria cutanea tarda; PCT2: PCT type 2; RefSeq: NCBI Reference Sequence; RMSD: root-mean-square deviation; RPKM: reads per kilobase of transcript per million mapped reads; UROD: uroporphyrinogen decarboxylase; UTR: untranslated region; WT: wild type.
+3D: three-dimensional; BLAST: Basic Local Alignment Search Tool; CDS: coding DNA sequence; HIV: human immunodeficiency virus; NCBI: National Center for Biotechnology Information; nt: nucleotides; PCT: porphyria cutanea tarda; PCT2: PCT type 2; RefSeq: NCBI Reference Sequence; RMSD: root-mean-square deviation; UROD: uroporphyrinogen decarboxylase; WT: wild type.
 
 ## Declarations
 ### Ethics approval and consent to participate
@@ -145,7 +160,7 @@ Not applicable. This study utilizes publicly available, anonymized bioinformatic
 Not applicable.
 
 ### Availability of data and materials
-All sequence files (the FASTA files of the WT and mutant CDS and proteins and of the _Pan troglodytes_ and _Bacillus subtilis_ homologs), figures, and cited references are available in the public GitHub repository: https://github.com/sara-charif-karkri/12DP-E_PCT_IB_2026.git
+All sequence files (the FASTA files of the WT and mutant CDS and proteins and of the _Pan troglodytes_ and _Bacillus subtilis_ homologs), figures, screenshots of the BLAST searches used to identify the homologs (figures/evidence/), and cited references are available in the public GitHub repository: https://github.com/sara-charif-karkri/12DP-E_PCT_IB_2026.git
 
 ### Competing interests
 The authors declare that they have no competing interests.
@@ -176,4 +191,3 @@ We thank the course instructors of Introduction to Bioinformatics (UPC) for prov
 - Soufleris S et al. Novel UROD mutation for porphyria cutanea tarda, type 2: a case report. AME Case Rep 2024;8:67.
 - The Medical Biochemistry Page. Porphyria Cutanea Tarda, PCT. https://themedicalbiochemistrypage.org/porphyria-cutanea-tarda-pct/ (12 October 2026, date last accessed).
 - Whitby FG et al. Crystal structure of human uroporphyrinogen decarboxylase. EMBO J 1998;17:2463–71.
-
