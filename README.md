@@ -11,7 +11,7 @@ This study provides a comparative bioinformatic and sequence alignment analysis 
 - `fasta_files/` — raw and validated FASTA sequence files (WT, mutant, and species orthologs)
 - `figures/` — figures of the report (alignments and 3D superposition)
 - `figures/evidence/` — screenshots of the BLAST searches and alignments that support Table 1 and Figures 2–3, and the three-species conservation figure
-- `gantt/` — project management plan, Gantt chart, and risk analysis documentation
+- `gantt/` — project management plan, Gantt chart, and risk analysis, in two versions: the plan frozen on 9 October and the final version with the real dates up to the delivery on 26 October
 - `references/` — literature bibliography and source documentation
 - `status/` — project progress logs and tracking updates
 - `.gitignore` — Git configuration file specifying intentionally untracked files
