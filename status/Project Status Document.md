@@ -27,7 +27,7 @@ Updated up to 26/10 (final delivery).
 | 5.3 Draft Discussion, Conclusions and Abstract | Sara and Laia | 16/10 | 22/10 | 22/10 | 26/10 | Completed | Sara wrote the first draft of the Abstract, Discussion, and Conclusions. |
 | 5.4 Cross-review and format check | Sara and Laia | 22/10 | 23/10 | 22/10 | 26/10 | Completed | Sara and Laia reviewed the whole report together: the citations were checked against the saved sources and corrected where needed, the figure links were checked, and the report was shortened to fewer than 5,000 words. |
 | 5.5 Final delivery: final Gantt and gap analysis | Sara and Laia | 21/10 | 23/10 | 21/10 | 26/10 | Completed | The gap analysis was added to this document, and the final version of the report and the repository was delivered on 26/10. |
-| 5.6 Prepare the oral defense | Sara and Laia | 27/10 | 05/11 | 27/10 | 05/11 | In progress | The oral defense is planned for 05/11 and will be based on the final report and the figures in the repository. |
+| 5.6 Prepare the oral defense | Sara and Laia | 27/10 | 05/11 | - | - | Pending | The oral defense is planned for 05/11 and will be based on the final report and the figures in the repository. |
 
 ## Gap Analysis
 
